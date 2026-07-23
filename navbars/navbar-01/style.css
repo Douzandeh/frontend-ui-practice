@@ -1,0 +1,45 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+/*? Keep navbar items aligned horizontally on desktop */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(33, 176, 169);
+}
+
+/* Logo */
+.header__logo {
+  font-size: 3.5rem;
+}
+
+/* Navigation */
+
+.header__nav .header__menu {
+  display: flex;
+  gap: 50px;
+}
+
+.header__nav .header__link {
+  font-size: 2rem;
+  color: black;
+  transition: all 0.3s ease;
+  padding: 1.5rem;
+  border-radius: 50px;
+}
+
+.header__nav .header__link:hover{
+    background-color: rgb(0, 255, 229);
+    
+}
